@@ -1,0 +1,22 @@
+{
+  "name": "LANOS",
+  "description": "WANs of F8",
+  "website": "https://github.com/curtcox/lanos",
+  "repository": "https://github.com/curtcox/lanos",
+  "logo": "https://node-js-sample.herokuapp.com/node.svg",
+  "success_url": "/",
+  "keywords": [
+    "node",
+    "express",
+    "socket.io",
+    "realtime",
+    "websocket"
+  ],
+  "scripts": {
+  },
+  "addons": [
+  ],
+  "env": {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs"
+  }
+}

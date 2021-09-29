@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Socket.IO chat</title>
+  </head>
+
+  <body>
+
+    <ul id="messages"></ul>
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script>
+      var socket = io();
+      var messages = document.getElementById('messages');
+      document.addEventListener('keypress', (event) => {
+        var x = { key:event.key, code:event.code, charCode:event.charCode }
+        socket.emit('keypress', x );
+      }, false);
+
+      socket.on("connect", () => {
+        console.log('connect',socket.id);
+      });
+
+      socket.on('message', function(msg) {
+        var item = document.createElement('li');
+        item.textContent = msg.key;
+        messages.appendChild(item);
+        window.scrollTo(0, document.body.scrollHeight);
+      });
+    </script>
+  </body>
+
+</html>
