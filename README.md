@@ -28,6 +28,7 @@ with operating systems. Systems to learn from and interoperate with include
 
 - [OpenHab](https://www.openhab.org/docs/concepts/)
 - [HomeAssistant](https://developers.home-assistant.io/docs/architecture/core/)
+- [room-assistant](https://www.room-assistant.io)
 - [PlaceOS](https://docs.placeos.com/)
 
 Look at the [issues](https://github.com/curtcox/lanos/issues) to see potential applications.
