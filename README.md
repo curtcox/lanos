@@ -8,6 +8,7 @@ separate machines
 - laptops
 - tablets
 - phones
+- automation systems
 
 and all of the input and output devices that they have
 
@@ -19,6 +20,18 @@ and all of the input and output devices that they have
 - microphones
 - sensors
 - accelerometers
+- lights
+
+The intent is to provide a platform for programs like a traditional operating system,
+but also rules, triggers, and simpler abstractions that aren't typically associated
+with operating systems. Systems to learn from and interoperate with include
+
+- [OpenHab](https://www.openhab.org/docs/concepts/)
+- [HomeAssistant](https://developers.home-assistant.io/docs/architecture/core/)
+- [PlaceOS](https://docs.placeos.com/)
+
+Look at the [issues](https://github.com/curtcox/lanos/issues) to see potential applications.
+Feel free to add issues.
 
 This code started with the [Getting Started](http://socket.io/get-started/chat/) guide
 of the Socket.IO website.
